@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.472" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Lnv\Desktop\JIRA\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Lnv\workspace\BDD-One\target\test-classes;C:\Users\Lnv\workspace\BDD-One\target\classes;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Lnv\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Lnv\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Lnv\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Lnv\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Lnv\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Lnv\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Lnv\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Lnv\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Lnv\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Lnv\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Lnv\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Lnv\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Lnv\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Lnv\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="SG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lnv\AppData\Local\Temp\surefire7833946710366402288\surefirebooter2887689512517188088.jar C:\Users\Lnv\AppData\Local\Temp\surefire7833946710366402288 2019-12-11T08-57-10_163-jvmRun1 surefire6524929523115219513tmp surefire_03185387719442234668tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Lnv\workspace\BDD-One\target\test-classes;C:\Users\Lnv\workspace\BDD-One\target\classes;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Lnv\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Lnv\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Lnv\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Lnv\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Lnv\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Lnv\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Lnv\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Lnv\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Lnv\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Lnv\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Lnv\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Lnv\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Lnv\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Lnv\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Lnv\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Lnv\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lnv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\Lnv\workspace\BDD-One"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lnv\AppData\Local\Temp\surefire7833946710366402288\surefirebooter2887689512517188088.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="Lnv"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lnv\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lnv\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\Lnv\workspace\BDD-One"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Lnv\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lnv\Downloads\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature" classname="Runner.Runner_class" time="18.982">
+    <failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@type=&apos;text&apos; and @placeholder=&apos;Last Name&apos; because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//input[@type=&apos;text&apos; and @placeholder=&apos;Last Name&apos;&apos; is not a valid XPath expression.&#10;  (Session info: chrome=78.0.3904.108)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KHDTG3P&apos;, ip: &apos;192.168.1.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Lnv\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1d9c8dbb16ebc3939f7fc38c7589d68b&#10;*** Element info: {Using=xpath, value=//input[@type=&apos;text&apos; and @placeholder=&apos;Last Name&apos;}" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@type='text' and @placeholder='Last Name' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='text' and @placeholder='Last Name'' is not a valid XPath expression.
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KHDTG3P', ip: '192.168.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Lnv\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d9c8dbb16ebc3939f7fc38c7589d68b
+*** Element info: {Using=xpath, value=//input[@type='text' and @placeholder='Last Name'}
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //input[@type='text' and @placeholder='Last Name' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='text' and @placeholder='Last Name'' is not a valid XPath expression.
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KHDTG3P', ip: '192.168.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Lnv\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d9c8dbb16ebc3939f7fc38c7589d68b
+*** Element info: {Using=xpath, value=//input[@type='text' and @placeholder='Last Name'}
+]]></failure>
+    <system-out><![CDATA[@tst @reg @sanity
+Feature: Test the demo automation website
+
+  @SIT @reg @test1
+  Scenario Outline: Enter the data in signup screen &amp#27;[90m# MyFile.feature:5&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mlaunch the demo automation website&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mclick the skip sign in button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser enters firstname as "<firstname>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters lastname as "<lastname>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters email as "<Email address>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters phone as "<Phone>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters gender as "<Gender>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters country as "<Country>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on submit button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m
+
+    Examples: 
+
+  @SIT @test1 @sanity @reg @tst
+  Scenario Outline: Enter the data in signup screen &amp#27;[90m# MyFile.feature:20&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mlaunch the demo automation website&amp#27;[0m        &amp#27;[90m# definition_file.lanuchURL()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick the skip sign in button&amp#27;[0m              &amp#27;[90m# definition_file.skipsignin()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser enters firstname as "&amp#27;[0m&amp#27;[32m&amp#27;[1mAnitha&amp#27;[0m&amp#27;[32m"&amp#27;[0m          &amp#27;[90m# definition_file.firstname(String)&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser enters lastname as "&amp#27;[0m&amp#27;[31m&amp#27;[1mVivek&amp#27;[0m&amp#27;[31m"&amp#27;[0m             &amp#27;[90m# definition_file.lastname(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@type='text' and @placeholder='Last Name' because of the following error:
+      SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='text' and @placeholder='Last Name'' is not a valid XPath expression.
+        (Session info: chrome=78.0.3904.108)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'DESKTOP-KHDTG3P', ip: '192.168.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Lnv\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 1d9c8dbb16ebc3939f7fc38c7589d68b
+      *** Element info: {Using=xpath, value=//input[@type='text' and @placeholder='Last Name'}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at Step_Definitions.definition_file.lastname(definition_file.java:38)
+      	at ?.And user enters lastname as "Vivek"(MyFile.feature:10)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters email as "&amp#27;[0m&amp#27;[36m&amp#27;[1mans@gmail.com&amp#27;[0m&amp#27;[36m"&amp#27;[0m        &amp#27;[90m# definition_file.email(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters phone as "&amp#27;[0m&amp#27;[36m&amp#27;[1m9790028300&amp#27;[0m&amp#27;[36m"&amp#27;[0m           &amp#27;[90m# definition_file.phone(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters gender as "&amp#27;[0m&amp#27;[36m&amp#27;[1mFemale&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# definition_file.Gender(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters country as "&amp#27;[0m&amp#27;[36m&amp#27;[1mIndia&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# definition_file.Countryname(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on submit button&amp#27;[0m               &amp#27;[90m# definition_file.click_submit()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                          &amp#27;[90m# definition_file.close_browser()&amp#27;[0m
+
+  @SIT @test1 @sanity @reg @tst
+  Scenario Outline: Enter the data in signup screen &amp#27;[90m# MyFile.feature:21&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mlaunch the demo automation website&amp#27;[0m        &amp#27;[90m# definition_file.lanuchURL()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: session not created
+      from chrome not reachable
+        (Session info: chrome=78.0.3904.108)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'DESKTOP-KHDTG3P', ip: '192.168.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+      Driver info: driver.version: ChromeDriver
+      remote stacktrace: Backtrace:
+      	Ordinal0 [0x0105A903+1550595]
+      	Ordinal0 [0x00FDA701+1025793]
+      	Ordinal0 [0x00F5C58E+509326]
+      	Ordinal0 [0x00F562C2+484034]
+      	Ordinal0 [0x00F5699B+485787]
+      	Ordinal0 [0x00F57B05+490245]
+      	Ordinal0 [0x00F53A85+473733]
+      	Ordinal0 [0x00F5D330+512816]
+      	Ordinal0 [0x00F0B649+177737]
+      	Ordinal0 [0x00F0A8ED+174317]
+      	Ordinal0 [0x00F08CDB+167131]
+      	Ordinal0 [0x00EF144A+70730]
+      	Ordinal0 [0x00EF24D0+74960]
+      	Ordinal0 [0x00EF2469+74857]
+      	Ordinal0 [0x00FF42C7+1131207]
+      	GetHandleVerifier [0x010F70FD+523789]
+      	GetHandleVerifier [0x010F6E90+523168]
+      	GetHandleVerifier [0x010FE1E7+552695]
+      	GetHandleVerifier [0x010F78FA+525834]
+      	Ordinal0 [0x00FEB7FC+1095676]
+      	Ordinal0 [0x00FF633B+1139515]
+      	Ordinal0 [0x00FF64A3+1139875]
+      	Ordinal0 [0x00FF5425+1135653]
+      	BaseThreadInitThunk [0x759F0419+25]
+      	RtlGetAppContainerNamedObjectPath [0x7760662D+237]
+      	RtlGetAppContainerNamedObjectPath [0x776065FD+189]
+      
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+      	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+      	at Step_Definitions.definition_file.lanuchURL(definition_file.java:20)
+      	at ?.Given launch the demo automation website(MyFile.feature:7)
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mclick the skip sign in button&amp#27;[0m              &amp#27;[90m# definition_file.skipsignin()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser enters firstname as "&amp#27;[0m&amp#27;[36m&amp#27;[1mMike&amp#27;[0m&amp#27;[36m"&amp#27;[0m            &amp#27;[90m# definition_file.firstname(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters lastname as "&amp#27;[0m&amp#27;[36m&amp#27;[1mMiller&amp#27;[0m&amp#27;[36m"&amp#27;[0m            &amp#27;[90m# definition_file.lastname(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters email as "&amp#27;[0m&amp#27;[36m&amp#27;[1mmike3212@gmail.com&amp#27;[0m&amp#27;[36m"&amp#27;[0m   &amp#27;[90m# definition_file.email(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters phone as "&amp#27;[0m&amp#27;[36m&amp#27;[1m9790028312&amp#27;[0m&amp#27;[36m"&amp#27;[0m           &amp#27;[90m# definition_file.phone(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters gender as "&amp#27;[0m&amp#27;[36m&amp#27;[1mMale&amp#27;[0m&amp#27;[36m"&amp#27;[0m                &amp#27;[90m# definition_file.Gender(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters country as "&amp#27;[0m&amp#27;[36m&amp#27;[1mUnited States&amp#27;[0m&amp#27;[36m"&amp#27;[0m      &amp#27;[90m# definition_file.Countryname(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on submit button&amp#27;[0m               &amp#27;[90m# definition_file.click_submit()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                          &amp#27;[90m# definition_file.close_browser()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 22554
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 11, 2019 8:57:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 9596
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576034849.388][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+</testsuite>

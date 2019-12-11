@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.472 s <<< FAILURE! - in TestSuite
+Runner.Runner_class.feature  Time elapsed: 18.982 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@type='text' and @placeholder='Last Name' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='text' and @placeholder='Last Name'' is not a valid XPath expression.
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KHDTG3P', ip: '192.168.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Lnv\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d9c8dbb16ebc3939f7fc38c7589d68b
+*** Element info: {Using=xpath, value=//input[@type='text' and @placeholder='Last Name'}
+Caused by: org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //input[@type='text' and @placeholder='Last Name' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='text' and @placeholder='Last Name'' is not a valid XPath expression.
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KHDTG3P', ip: '192.168.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Lnv\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d9c8dbb16ebc3939f7fc38c7589d68b
+*** Element info: {Using=xpath, value=//input[@type='text' and @placeholder='Last Name'}
+
