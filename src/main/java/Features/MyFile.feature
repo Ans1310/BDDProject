@@ -15,6 +15,7 @@ And user enters country as "<Country>"
 Then user clicks on submit button
 Then Close the browser
 
+
 Examples:
 |firstname|lastname|Email address|Phone|Gender|Country|
 |Anitha   |Vivek   |ans@gmail.com|9790028300|Female|India|
